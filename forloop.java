@@ -49,7 +49,7 @@ class forloop{
 	//obj.swap();
 	obj.swap1();
 	System.out.println("Git Hub course");
-	System.out.println("Github Seconf commit");
+	System.out.println("Github Second commit");
 }
 
 }
