@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
-class Email02{
+class emailValidation{
     void isValid(){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your email here.");
@@ -27,39 +27,7 @@ class Email02{
     }
 
     public static void main(String[] args) {
-        Email02 obj=new Email02();
+        emailValidation obj=new emailValidation();
         obj.isValid();
     }
 }
-
-//class task02{
-//    void name01(){
-//        Scanner sc= new Scanner(System.in);
-//        System.out.println("Enter your name here.");
-//        String username=sc.next();
-//        for(int i=0;i<username.length();i++){
-//            System.out.println(username.charAt(i));
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//       task02 obj=new task02();
-//       obj.name01();
-//    }
-//}
-
-//class task03{
-//    void reverseName(){
-//     Scanner sc= new Scanner(System.in);
-//        System.out.println("Enter the sentence to reverse it.");
-//        String sentence= sc.nextLine();
-//        for(int i=sentence.length()-1;i>=0;i--){
-//            System.out.print(sentence.charAt(i));
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//        task03 obj=new task03();
-//        obj.reverseName();
-//    }
-//}
