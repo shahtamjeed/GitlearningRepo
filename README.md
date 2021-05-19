@@ -1,2 +1,0 @@
-# GitlearningRepo
-Learning GitHub
